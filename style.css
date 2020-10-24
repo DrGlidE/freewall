@@ -1,0 +1,77 @@
+body{
+  background: rgba(231, 231, 231, 0.43);
+  line-height: 1em;
+  color: white;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  font-family: 'Lato', Helvetica, Arial, Tahoma;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+}
+h1{
+  font-size: 1.875em;
+  margin-bottom: 1px;
+}
+.indent{
+  margin: 14px;
+}
+section{
+  text-align: center;
+  margin: 14px;
+}
+article{
+  padding-top: 5px;
+}
+.header{
+  padding: 14px 0;
+  background-color: rgb(19, 17, 17);
+  background-color: #006a3f;
+  background-image: radial-gradient(rgba(0,0,0,0.1) 15%, transparent 16%), radial-gradient(rgba(0,0,0,0.1) 15%, transparent 16%), radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
+  background-image: -webkit-radial-gradient(rgba(0,0,0,0.1) 15%, transparent 16%), -webkit-radial-gradient(rgba(0,0,0,0.1) 15%, transparent 16%), -webkit-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), -webkit-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
+  background-position: 0 0px, 4px 4px, 0 1px, 4px 5px;
+  background-size: 8px 8px;
+  border-bottom: 1px solid rgb(41, 41, 41);
+}
+.grid{
+  display: grid;
+}
+.grid.grid-a-f{
+  grid-template-columns: repeat(auto-fill, minmax(175px, 3fr));
+  grid-auto-rows: 175px;
+}
+.grid.gap{
+  grid-gap: 14px;
+}
+.grid > .ces-2{
+  grid-column-end: span 2;
+}
+.grid > .ces-3{
+  grid-column-end: span 3;
+}
+.grid > .res-2{
+  grid-row-end: span 2;
+}
+.grid > .res-3{
+  grid-row-end: span 3;
+}
+.purple{
+  background-color: #8E44AD;
+}
+.red{
+  background-color: #870000;
+}
+.orange{
+  background-color: #C0392B;
+}
+.orangeplus{
+  background-color: #D35400;
+}
+.yellow{
+  background-color: #F39C12;
+}
+.green{
+  background-color: #006B41;
+}
+.greenplus{
+  background-color: #27AE60;
+}
